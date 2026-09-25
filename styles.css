@@ -15,6 +15,44 @@
   --serif:Georgia,'Times New Roman',serif;
 }
 
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.hero-video iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 56.25vw;
+  min-width: 177.78vh;
+  min-height: 100vh;
+  transform: translate(-50%, -50%);
+  border: 0;
+  pointer-events: none;
+}
+
+.video-hero {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.video-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.video-hero-content {
+  position: relative;
+  z-index: 2;
+}
 
 
 *{box-sizing:border-box}
