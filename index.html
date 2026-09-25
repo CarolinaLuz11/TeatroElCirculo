@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Teatro El Círculo</title>
+
+    <link rel="icon" type="image/png" href="header.png">
+</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio web conceptual para Teatro El Círculo, Rosario.">
+  <title>Teatro El Círculo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="pattern-strip" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Teatro El Círculo">
+      <img src="logoelcirculo.png" alt="El Círculo">
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#exposiciones">Exposiciones</a>
+      <a href="#coleccion">Colección</a>
+      <a href="#teatro">El teatro</a>
+      <a href="#visita">Visita</a>
+    </nav>
+
+    <button class="menu-button" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="inicio">
+    <!-- HERO CON VIDEO: reemplazá video-inicio.mp4 por el video final cuando quieras. -->
+    <section class="video-hero" aria-label="Presentación del Teatro El Círculo">
+      <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="Img4.png">
+        <source src="video web.mp4" type="video/mp4">
+        Tu navegador no soporta video HTML5.
+      </video>
+      <div class="video-overlay" aria-hidden="true"></div>
+      <div class="video-hero-content reveal visible">
+        <p class="eyebrow hero-eyebrow">TEATRO · ARTE · HISTORIA</p>
+        <h1>El arte<br><span>también</span><br>es historia.</h1>
+        <p class="hero-text">Un espacio para descubrir, recorrer y volver a mirar el patrimonio cultural de Rosario.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#exposiciones">Explorar exposiciones</a>
+          <a class="text-link text-link-light" href="#visita">Planificar mi visita →</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#exposiciones" aria-label="Bajar a exposiciones"> Teatro El Círculo</a>
+    </section>
+
+    <section class="ticker" aria-label="Información destacada">
+      <div></div><span>✦</span>
+      <div></div><span>✦</span>
+      <div></div><span>✦</span>
+      <div></div><span>✦</span>
+      <div></div><span>✦</span>
+    </section>
+
+    <section id="exposiciones" class="section exhibitions">
+      <div class="section-heading">
+        <p class="eyebrow">LO QUE ESTÁ PASANDO</p>
+        <h2>Exposiciones</h2>
+        <a class="text-link" href="#">Ver todas →</a>
+      </div>
+
+      <div class="exhibition-grid">
+        <article class="exhibition featured reveal">
+          <div class="exhibition-card">
+            <img src="Img4.png" alt="Obra de El Círculo">
+          </div>
+          <div class="exhibition-info">
+            <p>DESTACADA</p>
+            <h3>El Círculo</h3>
+            <span>Patrimonio · Arquitectura · Historia</span>
+          </div>
+        </article>
+
+        <article class="exhibition reveal">
+          <div class="art-placeholder art-two">
+            <img src="ang.jpg" alt="Teatro El Círculo">
+          </div>
+          <div class="exhibition-info">
+            <p>EXPOSICIÓN</p>
+            <h3>La escena y sus memorias</h3>
+            <span>Archivo</span>
+          </div>
+        </article>
+
+        <article class="exhibition reveal">
+          <div class="art-placeholder art-three">
+            <img src="circulo.jpg" alt="Teatro El Círculo">
+          </div>
+          <div class="exhibition-info">
+            <p>EXPOSICIÓN</p>
+            <h3>Imágenes de una ciudad</h3>
+            <span>Rosario · Patrimonio · Cultura</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="coleccion" class="collection">
+      <div class="collection-content reveal">
+        <p class="eyebrow light">LA COLECCIÓN</p>
+        <h2>Una colección<br><em>para perderse.</em></h2>
+        <p>Explorá las piezas por época, material, artista o tema. La navegación no busca una única ruta: propone conexiones.</p>
+        <a class="button button-light" href="#">Entrar a la colección</a>
+      </div>
+    </section>
+
+    <section id="teatro" class="museum-section">
+      <div class="museum-copy reveal">
+        <p class="eyebrow">EL TEATRO</p>
+        <h2>Un edificio.<br><em>Muchas historias.</em></h2>
+        <p>El teatro funciona como un lugar de encuentro entre patrimonio, creación contemporánea y comunidad. Esta sección puede reemplazarse por la historia real de la institución.</p>
+        <a class="text-link" href="#">Conocer nuestra historia →</a>
+      </div>
+      <div class="museum-visual">
+        <div class="museum-frame">
+          <img src="image.png" alt="Teatro El Círculo">
+
+    </section>
+
+    <section class="program">
+      <div class="program-title">
+        <p class="eyebrow light">AGENDA</p>
+        <h2>Para hacer<br><em>en el teatro.</em></h2>
+      </div>
+      <div class="program-list">
+        <a href="#"><span>01</span><b>Visitas guiadas</b><small>Recorridos · Todos los fines de semana</small><strong>↗</strong></a>
+        <a href="#"><span>02</span><b>Talleres</b><small>Familias · Jóvenes · Adultos</small><strong>↗</strong></a>
+        <a href="#"><span>03</span><b>Conversaciones</b><small>Artistas · Investigadores · Curadores</small><strong>↗</strong></a>
+        <a href="#"><span>04</span><b>Actividades educativas</b><small>Escuelas · Instituciones</small><strong>↗</strong></a>
+      </div>
+    </section>
+
+    <section id="visita" class="visit">
+      <div class="visit-head">
+        <p class="eyebrow">PLANIFICÁ TU VISITA</p>
+        <h2>Te esperamos.</h2>
+      </div>
+      <div class="visit-grid">
+        <div><span>HORARIOS</span><b>Lunes, miércoles, viernes y sábados<br>a las 10:30 hs</b></div>
+        <div><span>ENTRADA</span><b>General<br>$15.000</b></div>
+        <div><span>UBICACIÓN</span><b>Laprida n°1223<br>Rosario - Argentina</b></div>
+        <div><span>CONTACTO</span><b>visitasenelcirculo@gmail.com</b><b>+54 (0341) 4483784</b></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <p class="footer-brand">TEATRO<br><em>El Círculo</em></p>
+        <p>Arte, patrimonio y nuevas miradas.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#exposiciones">Exposiciones</a>
+        <a href="#coleccion">Colección</a>
+        <a href="#teatro">El teatro</a>
+        <a href="#visita">Visita</a>
+      </div>
+      <div class="social">
+        <a href="https://www.instagram.com/teatroelcirculo/?hl=es" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.youtube.com/channel/UCTiPrVIAvC6ZKbO7JB1Zmfg" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://www.facebook.com/Teatroelcirculo.ok" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Teatro El Círculo</span>
+      <span>Diseño y desarrollo — identidad visual aplicada</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
