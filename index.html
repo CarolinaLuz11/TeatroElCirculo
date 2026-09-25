@@ -4,7 +4,9 @@
   <head>
     <meta charset="UTF-8">
     <title>Teatro El Círculo</title>
-</head>
+
+    <link rel="icon" type="image/png" href="header.png">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Sitio web conceptual para Teatro El Círculo, Rosario.">
@@ -35,10 +37,15 @@
   <main id="inicio">
     <!-- HERO CON VIDEO: reemplazá video-inicio.mp4 por el video final cuando quieras. -->
     <section class="video-hero" aria-label="Presentación del Teatro El Círculo">
-      <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="Img4.png">
-        <source src="video web.mp4" type="video/mp4">
-        Tu navegador no soporta video HTML5.
-      </video>
+<div class="hero-video">
+  <iframe
+    src="https://www.youtube.com/embed/_TGkA2tKqc8?autoplay=1&mute=1&loop=1&playlist=_TGkA2tKqc8&controls=0&rel=0&modestbranding=1"
+    title="Teatro El Círculo"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+</div>
       <div class="video-overlay" aria-hidden="true"></div>
       <div class="video-hero-content reveal visible">
         <p class="eyebrow hero-eyebrow">TEATRO · ARTE · HISTORIA</p>
